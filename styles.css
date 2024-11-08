@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4e0101; /* Vinho */
+    padding: 0.6rem;
+    text-align: center;
+    font-family: "Cabin", sans-serif;
+    text-shadow: 7px 7px 10px rgba(0, 0, 0, 0.5);
+    font-family: "Caesar Dressing", sans-serif;
+}
+header img{
+    width: 2rem;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    font-family: "Cabin", sans-serif;
+    text-shadow: 7px 7px 10px rgba(0, 0, 0, 0.5);
+    
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 30px;
+    font-family: "Cabin", sans-serif;
+    text-shadow: 7px 7px 10px rgba(0, 0, 0, 0.5);
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.produtos {
+    padding: 20px;
+    text-align: center;
+}
+
+.produto {
+    display: inline-block;
+    background-color: #222;
+    border: 1px solid #4e0101; /* Vinho */
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+}
+
+.produto img {
+    max-width: 100%;
+border-radius: 10px;
+transition: 0.3s;
+
+}
+.produto img:hover {
+transform: scale(1.1);
+
+}
+
+.preco {
+    color: #980101; /* Vinho */
+    font-weight: bold;
+}
+
+button {
+    background-color: #4e0101; /* Vinho */
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #6a0101; /* Um tom mais claro de vinho */
+}
+
+footer {
+    background-color: #222;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.carrossel {
+    position: relative;
+    max-width: 600px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.slide {
+    min-width: 100%;
+}
+
+.slide img {
+    width: 100%;
+    height: auto;
+}
+
+button.prev, button.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(128, 0, 0, 0.7); /* Vinho */
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button.prev {
+    left: 10px;
+}
+
+button.next {
+    right: 10px;
+}

@@ -4,16 +4,24 @@ body {
     color: #fff;
     margin: 0;
     padding: 0;
+    
 }
 
 header {
     background-color: #4e0101; /* Vinho */
     padding: 0.6rem;
     text-align: center;
-    font-family: "Cabin", sans-serif;
     text-shadow: 7px 7px 10px rgba(0, 0, 0, 0.5);
     font-family: "Caesar Dressing", sans-serif;
+    justify-content: space-between; /* Espaço entre os itens do header */
+    align-items: center;
+    border-end-start-radius: 10px;
+    border-end-end-radius: 10px;
+    color: #c4c4c4;
+    
+    
 }
+
 header img{
     width: 2rem;
 }
@@ -31,10 +39,11 @@ nav ul li {
     margin: 0 30px;
     font-family: "Cabin", sans-serif;
     text-shadow: 7px 7px 10px rgba(0, 0, 0, 0.5);
+    
 }
 nav ul li a {
-    color: #fff;
     text-decoration: none;
+    color:#c4c4c4;
 }
 
 .produtos {
@@ -68,7 +77,7 @@ transform: scale(1.1);
     font-weight: bold;
 }
 
-button {
+.produto > button {
     background-color: #4e0101; /* Vinho */
     color: #fff;
     border: none;
@@ -94,6 +103,7 @@ footer {
     max-width: 600px;
     margin: auto;
     overflow: hidden;
+    
 }
 
 .slides {
@@ -108,6 +118,7 @@ footer {
 .slide img {
     width: 100%;
     height: auto;
+    
 }
 
 button.prev, button.next {
@@ -128,3 +139,23 @@ button.prev {
 button.next {
     right: 10px;
 }
+
+.texto {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    font-weight: 30;
+    border: 3px solid #4e0101;
+    background-color: #222;
+    color: rgb(236, 236, 236);
+    border-radius: 10px;
+    padding: 0;
+    margin: 2rem 12rem;
+    
+    
+}
+
+
